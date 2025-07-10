@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ONIMARI CREATIVES</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 0;
+      background: url('./wallpaper1.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #4a2c1e;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      width: 100%;
+      justify-content: space-between;
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+    .company {
+      color: #d1c4b4;
+      font-weight: bold;
+      font-size: 1.5em;
+      text-transform: uppercase;
+    }
+    nav {
+      display: flex;
+      gap: 15px;
+    }
+    nav a {
+      padding: 10px 20px;
+      text-decoration: none;
+      color: #4a2c1e;
+      background-color: #f5e8df;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    nav a:hover {
+      background-color: #d9a68c;
+      color: #fff;
+    }
+    .section {
+      text-align: center;
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+      flex: 1;
+    }
+    .hero {
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+      background: none;
+    }
+    .hero-content {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .hero h1 {
+      font-size: 2.5em;
+      margin: 0;
+      font-family: 'Times New Roman', serif;
+      text-transform: uppercase;
+    }
+    .hero p {
+      font-size: 1.2em;
+      margin: 10px 0;
+    }
+    .content-sections {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 20px 0;
+    }
+    .about-owner, .what-is-onimari {
+      background: rgba(245, 232, 223, 0.7);
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      flex: 1;
+    }
+    .about-owner h2, .what-is-onimari h2 {
+      font-size: 2em;
+      margin-bottom: 15px;
+      font-family: 'Times New Roman', serif;
+      color: #4a2c1e;
+    }
+    .about-owner p, .what-is-onimari p {
+      font-size: 1em;
+      margin-bottom: 10px;
+      color: #4a2c1e;
+    }
+    .what-is-onimari ul {
+      text-align: left;
+      font-size: 1em;
+      padding-left: 20px;
+      margin-bottom: 10px;
+      color: #4a2c1e;
+    }
+    footer {
+      text-align: center;
+      padding: 10px 0;
+      color: #d1c4b4;
+      background: rgba(0, 0, 0, 0.5);
+      margin-top: auto;
+    }
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+      nav a {
+        display: block;
+        text-align: center;
+      }
+      .hero {
+        height: 300px;
+      }
+      .content-sections {
+        flex-direction: column;
+        gap: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="company">ONIMARI CREATIVES</div>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="products.html">Products</a>
+      <a href="login.html">Login</a>
+      <a href="index.html">Sign-up</a>
+    </nav>
+  </header>
+  <div class="hero">
+    <div class="hero-content">
+      <h1 align="center">HOME</h1>
+      <p>Discover the vision behind Onimari Creatives</p>
+    </div>
+  </div>
+  <div class="section">
+    <div class="content-sections">
+      <div class="about-owner">
+        <h2>About the Owner</h2>
+        <p><strong>Name:</strong> Juliana Mharie B. Ramos</p>
+        <p><strong>Age:</strong> 19 years old</p>
+        <p><strong>Course/Program:</strong> B.S. Information Technology with specialization in Cybersecurity</p>
+        <p><strong>Reason for creating the company:</strong> There was one single purpose; Onimari Creatives was set up to empower students with time-saving, quality templates created in Canva to elevate their school projects, presentations, portfolios, and creative assignments.</p>
+      </div>
+      <div class="what-is-onimari">
+        <h2>What is Onimari Creatives?</h2>
+        <p>Onimari Creatives was born out of a simple realization: to be a student today means creating everything with a professional touch-from class presentations to digital portfolios-and from there to juggling the full weight of subjects, deadlines, and other responsibilities.</p>
+        <p>We know what it is to deal with constant pressure from every kind of deadline, for great-looking visuals that attract any audience, and for a longing to be noticed even if he or she may not have the professional design skills to pull it off. With the creativity of a student and the vision of a designer, I spotted the gap that stands—the realization that not everyone will have time to design from scratch, not all will have the skill to do it, not everyone will have the right tools, and of course, not everybody can afford premium services. This is the reason why Onimari Creatives was set up.</p>
+        <h3>Related Services:</h3>
+        <ul>
+          <li>✅ Editable Canva Templates – reports, infographics, resumes, pitch decks, and school projects</li>
+          <li>✅ Layout Designs That Suit You – Draw the line between academic expectations and a unique expression of self</li>
+          <li>✅ Access to All Students – economically priced, easily accessible, creative-anything for every device</li>
+        </ul>
+        <p>If you're working on your thesis, resume page representation, web-based brazil, or PowerPoint presentation-as-a-last-minute thing, Onimari Creatives becomes the “easy button” that makes you look professional and polished.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

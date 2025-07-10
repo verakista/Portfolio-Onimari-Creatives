@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ONIMARI CREATIVES - About</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 0;
+      background: url('./wallpaper1.jpg') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      color: #4a2c1e;
+    }
+    header {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      width: 100%;
+      justify-content: space-between;
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+    .company {
+      color: #d1c4b4;
+      font-weight: bold;
+      font-size: 1.5em;
+      text-transform: uppercase;
+    }
+    nav {
+      display: flex;
+      gap: 15px;
+    }
+    nav a {
+      padding: 10px 20px;
+      text-decoration: none;
+      color: #4a2c1e;
+      background-color: #f5e8df;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    nav a:hover {
+      background-color: #d9a68c;
+      color: #fff;
+    }
+    .container {
+      max-width: 600px;
+      margin: 20px;
+      background: rgba(245, 232, 223, 0.7);
+      padding: 40px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+      font-family: 'Times New Roman', serif;
+      text-transform: uppercase;
+    }
+    h2 {
+      font-size: 1.8em;
+      margin-bottom: 10px;
+      font-family: 'Times New Roman', serif;
+      color: #8b5e3c;
+    }
+    p {
+      font-size: 0.9em;
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+    ul {
+      text-align: left;
+      font-size: 0.9em;
+      padding-left: 20px;
+      margin-bottom: 20px;
+    }
+    .responsive {
+      width: 100%;
+      height: auto;
+      margin-top: 20px;
+      border-radius: 5px;
+      border: 1px solid #d9a68c;
+    }
+    footer {
+      text-align: center;
+      padding: 10px 0;
+      color: #d1c4b4;
+      background: rgba(0, 0, 0, 0.5);
+      margin-top: 20px;
+    }
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+      nav a {
+        display: block;
+        text-align: center;
+      }
+      .container {
+        margin: 10px;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="company">ONIMARI CREATIVES</div>
+    <nav>
+       <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="products.html">Products</a>
+      <a href="login.html">Login</a>
+      <a href="index.html">Sign-up</a>
+    </nav>
+  </header>
+  <div class="container">
+    <h1>About Us</h1>
+    <h2>Company History</h2>
+    <p>Onimari Creatives is founded primarily to provide students access to beautiful editable Canva templates to help in saving time and enriching the presentation. This was originally a side project for sharing my templates but quickly transformed into a growing platform, where the students can access aesthetic, functional, and easy-to-use designs for every school need.</p>
+    <h2>What Sets Us Apart From Others?</h2>
+    <p>While some generic template provider, Onimari Creatives, a student-to-student user design by a student. Every template is formed based on academics, considering whether it be for class reports, portfolios, presentations, or resumes. Our designs are:</p>
+    <ul>
+      <li>Affordable (or free)</li>
+      <li>Aesthetics, yet Practical</li>
+      <li>Optimized for Canva (No design experience required)</li>
+      <li>For Real Academic Use Cases</li>
+    </ul>
+  </div>
+</body>
+</html>

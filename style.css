@@ -1,0 +1,144 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('./wallpaper1.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+header {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.company {
+  color: #d9c2a8;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #8b6f47;
+  background-color: #e8d8c9;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #d9c2a8;
+}
+
+.container {
+  max-width: 400px;
+  margin: 20px;
+  background: #fffcf9; /* Solid background for contrast */
+  padding: 40px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  color: #8b6f47; /* Ensure text is readable */
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+p {
+  font-size: 0.9em;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+  z-index: 1;
+}
+
+input[type="text"], input[type="password"] {
+  padding: 12px;
+  border: 1px solid #d9c2a8;
+  border-radius: 25px;
+  background: #fffcf9;
+  font-size: 1em;
+  color: #8b6f47;
+}
+
+button {
+  padding: 12px;
+  background-color: #d9c2a8;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #c9b29a;
+}
+
+.small {
+  color: #8b6f47;
+  font-size: 0.8em;
+  margin-top: -10px;
+}
+
+a {
+  color: #8b6f47;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+  nav a {
+    display: block;
+    text-align: center;
+  }
+  .container {
+    margin: 10px;
+    padding: 20px;
+  }
+}
