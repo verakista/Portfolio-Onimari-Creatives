@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ONIMARI CREATIVES - Products</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 0;
+      background: url('./wallpaper1.jpg') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      color: #4a2c1e;
+    }
+    header {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      width: 100%;
+      justify-content: space-between;
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+    .company {
+      color: #d1c4b4;
+      font-weight: bold;
+      font-size: 1.5em;
+      text-transform: uppercase;
+    }
+    nav {
+      display: flex;
+      gap: 15px;
+    }
+    nav a {
+      padding: 10px 20px;
+      text-decoration: none;
+      color: #4a2c1e;
+      background-color: #f5e8df;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    nav a:hover {
+      background-color: #d9a68c;
+      color: #fff;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 40px;
+      flex: 1;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 40px;
+      font-family: 'Times New Roman', serif;
+      text-transform: uppercase;
+      text-align: center;
+      color: #8b5e3c;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      justify-items: center;
+    }
+    .product-box {
+      background: rgba(245, 232, 223, 0.7);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 100%;
+      text-align: center;
+      overflow: hidden;
+    }
+    .product-box img {
+      width: 100%;
+      max-height: 250px;
+      object-fit: contain;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      background-color: #fff;
+    }
+    .carousel-inner img {
+      width: 100%;
+      max-height: 250px;
+      object-fit: contain;
+      background-color: #fff;
+    }
+    .product-box h2 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+      color: #8b5e3c;
+    }
+    .product-box h2 a {
+      color: #8b5e3c;
+      text-decoration: none;
+    }
+    .product-box h2 a:hover {
+      text-decoration: underline;
+    }
+    .product-box p {
+      font-size: 0.9em;
+      margin-bottom: 10px;
+    }
+    .product-box:first-child,
+    .product-box:nth-child(2) {
+      max-width: 500px;
+      height: auto;
+    }
+    .extra-product {
+      grid-column: 1 / span 2;
+      display: flex;
+      justify-content: center;
+    }
+    .product-box:nth-child(3) {
+      max-width: 900px;
+      height: auto;
+    }
+    footer {
+      text-align: center;
+      padding: 10px 0;
+      color: #d1c4b4;
+      background: rgba(0, 0, 0, 0.5);
+      margin-top: auto;
+    }
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+      nav a {
+        display: block;
+        text-align: center;
+      }
+      .container {
+        margin: 10px;
+        padding: 20px;
+      }
+      .product-grid {
+        grid-template-columns: 1fr;
+      }
+      .extra-product {
+        grid-column: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="company">ONIMARI CREATIVES</div>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="products.html">Products</a>
+      <a href="login.html">Login</a>
+      <a href="index.html">Sign-up</a>
+    </nav>
+  </header>
+  <div class="container">
+    <h1>PRODUCTS</h1>
+    <div class="product-grid">
+      <div class="product-box">
+        <img src="https://i.imgur.com/tqi8gq0.jpeg" alt="About Me Template" />
+        <h2><a href="https://www.canva.com/design/DAGsgKB5q_8/XGnFnCq8nvq1ZRNaM9B0Aw/edit?utm_content=DAGsgKB5q_8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">About Me Template (CLICK TO REDIRECT)</a></h2>
+        <p>This template can help you describe yourself in a clean, visual format for school or portfolio use.</p>
+      </div>
+      <div class="product-box">
+        <img src="https://i.imgur.com/Wcs4AEK.jpeg" alt="Layout Design Sample" />
+        <h2><a href="https://www.canva.com/design/DAGsgLRowrQ/Obal81BmF2YFDDWxExtPsA/edit?utm_content=DAGsgLRowrQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">PokeCards Template (CLICK TO REDIRECT)</a></h2>
+        <p>This template can aid you in expressing yourself creatively to your class.</p>
+      </div>
+      <div class="extra-product">
+        <div class="product-box">
+          <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://i.imgur.com/pUOhLQv.jpeg" class="d-block w-100" alt="Slide 1">
+              </div>
+              <div class="carousel-item">
+                <img src="https://i.imgur.com/TLPsmDK.jpeg" class="d-block w-100" alt="Slide 2">
+              </div>
+              <div class="carousel-item">
+                <img src="https://i.imgur.com/oRyKonQ.jpeg" class="d-block w-100" alt="Slide 3">
+              </div>
+              <div class="carousel-item">
+                <img src="https://i.imgur.com/esb7P78.jpeg" class="d-block w-100" alt="Slide 4">
+              </div>
+              <div class="carousel-item">
+                <img src="https://i.imgur.com/kuJEbNC.jpeg" class="d-block w-100" alt="Slide 5">
+              </div>
+              <div class="carousel-item">
+                <img src="https://i.imgur.com/pxdMyMO.jpeg" class="d-block w-100" alt="Slide 6">
+              </div>
+              <div class="carousel-item">
+                <img src="https://i.imgur.com/z4o20Hh.jpeg" class="d-block w-100" alt="Slide 7">
+              </div>
+              <div class="carousel-item">
+                <img src="https://i.imgur.com/nqixfg2.jpeg" class="d-block w-100" alt="Slide 8">
+              </div>
+              <div class="carousel-item">
+                <img src="https://i.imgur.com/JO85u1j.jpeg" class="d-block w-100" alt="Slide 9">
+              </div>
+              <div class="carousel-item">
+                <img src="https://i.imgur.com/yEMO2Po.jpeg" class="d-block w-100" alt="Slide 10">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <h2><a href="https://www.canva.com/design/DAGsNllczWU/wJoDRixSur7EaqFaPFygDw/edit?utm_content=DAGsNllczWU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">Digital Portfolio Template (CLICK TO REDIRECT)</a></h2>
+          <p>If needed for a digital portfolio, this template would be right for you!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
